@@ -7,7 +7,7 @@ function Main() {
     return (
         <div class='main'>
             <img src={imagesData.architect} width="100%" alt="" />
-            <p class='text'><span className="br">BR</span >Architect</p>
+            <p class='text'><span className="br">HR</span >Architect</p>
 
         </div>
     )
