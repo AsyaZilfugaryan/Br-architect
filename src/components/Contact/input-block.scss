@@ -1,0 +1,27 @@
+
+.input-block{
+    display: flex;
+    flex-direction: column;
+    .contact-input{
+        margin: 10px 0;
+        padding: 10px 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+
+    }
+    .button{
+        width: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding:8px 16px;
+    }
+    .map{
+        margin: 15px 0;
+        
+    }
+}

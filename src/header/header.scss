@@ -1,0 +1,49 @@
+@import '../assets/styles/mixin.scss';
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: ghostwhite;
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    // @include max-width-991 () {
+    //     font-size: ;
+    // }
+
+    @include max-width-767 () {}
+
+    @include max-width-576 () {
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding: 10px 5px;
+
+    }
+
+    .logo_box {
+        .logo {
+            font-weight: bold;
+            font-size: 22px;
+
+            @include max-width-576 () {
+                font-size: 18px;
+            }
+            
+        }
+    }
+
+    .links {
+        text-decoration: none;
+        color: black;
+        padding: 5px 10px;
+        transition: 0.3s ease-in;
+        margin: 0 5px;
+
+        &:hover {
+            transition: 0.3s ease-in;
+            background-color: grey;
+            color: white;
+        }
+    }
+}

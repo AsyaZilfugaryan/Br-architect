@@ -1,0 +1,19 @@
+@import '../assets/styles/mixin.scss';
+
+.projects_wrraper {
+   
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    .projects_cont {
+        max-width: 1600px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px 0;
+
+    }
+}

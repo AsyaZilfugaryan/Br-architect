@@ -1,0 +1,31 @@
+@import '../assets/styles/mixin.scss';
+
+.main {
+    width: 100%;
+    position: relative;
+
+    .text {
+        font-size: 50px;
+        z-index: 1000;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        @include max-width-767() {
+            font-size: 24px;
+        }
+
+        @include max-width-576() {
+            font-size: 20px;
+        }
+
+        .br {
+            font-weight: bold;
+            padding: 5px 15px;
+            background-color: #282727ce;
+
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.p-title {
+    width: 100%;
+
+    .blocks-title {
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 0.2px;
+            background-color: rgb(204, 194, 194);
+            bottom: -10px;
+            left: 0;
+        }
+    }
+}
